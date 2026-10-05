@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/setasign-fpdf",
+    "description": "Tyhp type definitions for setasign/fpdf 1.9.0.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "1.9.0",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/setasign-fpdf-impl": "~1.9.0.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/setasign-fpdf-impl"
+        }
+    }
+}
